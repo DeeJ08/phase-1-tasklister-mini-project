@@ -1,6 +1,4 @@
 document.addEventListener("DOMContentLoaded", () => {
-  const taskList = new TaskList();
-
   const elementIds = ["create-task-form", "new-task-description", "new-task-priority", "tasks"];
   const [taskForm, taskInput, taskPriority, taskUl] = elementIds.map(id => document.getElementById(id));
 
